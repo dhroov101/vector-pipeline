@@ -1,7 +1,7 @@
 import hashlib
 from datetime import datetime, timedelta
 from airflow.decorators import dag, task
-from qdrant_client import QdrantClient
+from qdrant_client import QdrantClient #KDFKJNFKJNSDK
 from qdrant_client.http import models
 from sentence_transformers import SentenceTransformer
 
